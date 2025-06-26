@@ -1,11 +1,16 @@
 {
-    "name": "damaiming/laravel-generator",
-    "description": "routes.php update.",
-    "keywords": ["dais", "laravel", "model", "migration", "scaffold", "CRUD", "generator"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "ahhhh"
-        }
-    ]
+  "name": "renyidudumen/plugintest",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "require": {
+    "composer-plugin-api": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Renyidudumen\\Plugintest\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "Renyidudumen\\Plugintest\\MyPlugin"
+  }
 }
