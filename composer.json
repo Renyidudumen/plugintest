@@ -12,7 +12,7 @@
   },
   "extra": {
     "class": "DUDUMEN\\DUPlugin\\MyPlugin"
-  }
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
