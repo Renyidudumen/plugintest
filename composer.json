@@ -4,13 +4,13 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Test\\Com\\": "test/"
+      "MyCompany\\MyPlugin\\": "test/"
     }
   },
   "require": {
     "composer-plugin-api": "^2.0"
   },
   "extra": {
-  "class": "MyCompany\\MyPlugin\\MyPlugin"
-}
+    "class": "MyCompany\\MyPlugin\\MyPlugin"
+  }
 }
