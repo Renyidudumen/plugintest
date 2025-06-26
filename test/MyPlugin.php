@@ -1,4 +1,4 @@
-namespace MyCompany\MyPlugin;
+namespace DUDUMEN\DUPlugin;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
