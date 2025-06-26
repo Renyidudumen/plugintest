@@ -1,6 +1,7 @@
 {
   "name": "renyidudumen/plugintest",
   "type": "composer-plugin",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Test\\Com\\": "test/"
