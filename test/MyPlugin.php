@@ -1,3 +1,5 @@
+<?php
+
 namespace DUDUMEN\DUPlugin;
 
 use Composer\Composer;
@@ -10,6 +12,16 @@ class MyPlugin implements PluginInterface, EventSubscriberInterface
     public function activate(Composer $composer, IOInterface $io)
     {
         $io->write("My custom plugin is activated!");
+    }
+
+    public function deactivate(Composer $composer, IOInterface $io)
+    {
+        $io->write("My custom plugin is deactivated!");
+    }
+
+    public function uninstall(Composer $composer, IOInterface $io)
+    {
+        $io->write("My custom plugin is uninstalled!");
     }
 
     public static function getSubscribedEvents()
@@ -36,3 +48,4 @@ class MyPlugin implements PluginInterface, EventSubscriberInterface
         file_put_contents($file, $content, FILE_APPEND);
     }
 }
+
