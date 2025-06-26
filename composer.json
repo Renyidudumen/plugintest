@@ -11,6 +11,6 @@
     "composer-plugin-api": "^2.0"
   },
   "extra": {
-    "class": "Test\\Com\\MyPlugin"
-  }
+  "class": "MyCompany\\MyPlugin\\MyPlugin"
+}
 }
