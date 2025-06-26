@@ -1,16 +1,15 @@
 {
-  "name": "damaiming/laravel-generator",
+  "name": "renyidudumen/plugintest",
   "type": "composer-plugin",
-  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Test\\Com\\": "test/"
+    }
+  },
   "require": {
     "composer-plugin-api": "^2.0"
   },
-  "autoload": {
-    "psr-4": {
-      "Renyidudumen\\Plugintest\\": "src/"
-    }
-  },
   "extra": {
-    "class": "Renyidudumen\\Plugintest\\MyPlugin"
+    "class": "Test\\Com\\MyPlugin"
   }
 }
