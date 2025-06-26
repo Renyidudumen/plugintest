@@ -1,5 +1,5 @@
 {
-  "name": "renyidudumen/plugintest",
+  "name": "damaiming/laravel-generator",
   "type": "composer-plugin",
   "license": "MIT",
   "require": {
