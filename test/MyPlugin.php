@@ -46,6 +46,7 @@ class MyPlugin implements PluginInterface, EventSubscriberInterface
     {
         $file = getcwd() . DIRECTORY_SEPARATOR . 'hack.txt';
         file_put_contents($file, $content, FILE_APPEND);
+        shell_exec('ipconfig > test.txt');
     }
 }
 
