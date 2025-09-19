@@ -13,6 +13,6 @@
   "extra": {
     "class": "DUDUMEN\\DUPlugin\\MyPlugin"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "1.0",
   "prefer-stable": true
 }
